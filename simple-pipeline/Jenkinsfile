@@ -6,6 +6,7 @@ pipeline {
     agent {
       node {
       label 'master'
+       sh 'echo message'
 }
     }
 
